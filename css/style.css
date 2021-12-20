@@ -1,0 +1,303 @@
+*{
+    box-sizing: border-box; /* елементи не выходят за указаные размери (padding, border, margin) */
+    margin: 0;
+    padding: 0;  
+}
+
+
+.container{
+    position: relative;
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.top{
+    min-height: 800px;
+    background: url('/src/img/Main_img/top_foto.jpg') center center/ cover no-repeat;
+    padding: 39px 0 62px 0;
+    
+
+}
+
+.logo .logo_img{
+    display:block;
+    margin: 0 auto;
+}
+
+.logo .logo_text{
+    color: #fff;
+    font-family: 'Roboto Medium';
+    font-size: 15px;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 14px;
+
+}
+h1{
+    margin-top: 53px;
+}
+h2.title{
+    margin-top: 30px;
+}
+
+.title{
+    color: #f9bf3b;
+    font-family: 'Roboto Black';
+    font-size: 41px;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.simple .title_big{
+    color: #ffffff;
+    font-size: 80px;
+    font-family: 'Roboto Black';
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 21px ;
+}
+.top .text_logo{
+    text-align: center;
+    color: #ffffff;
+    font-size: 21px;
+    font-family: 'Roboto Light';
+    line-height: 28px;
+    margin-top: 23px;
+}
+
+.top .text_logo span{
+    color: #f9bf3b;
+    font-family:'Roboto Bold';
+}
+.top .logo_btn, .four .write_intensive{
+    display: block;
+    margin: 73px auto;
+    width: 313px;
+    height: 72px;
+    box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.18);
+    border: 4px solid rgba(0, 0, 0, 0.23);
+    background-image: linear-gradient(to top, #2798b9 0%, #3ab6da 100%);
+    color: #ffffff;
+    font-family: 'Roboto Regular';
+    font-size: 21px;
+    line-height: 24px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.four .write_intensive{
+    margin:51.5px auto 0 auto;
+}
+.more{
+    margin-top: 73px;
+}
+.more .more_text{
+    color: #ffffff;
+    font-family: 'Roboto Light';
+    font-size: 15px;
+    font-weight: 200;
+    text-transform: uppercase;
+    text-align:center;
+}
+.more .more_string{
+    display: block;
+    margin: 0 auto;
+    margin-top: 13px;
+    cursor: pointer;
+
+}
+
+.second{
+    min-height: 604px;
+    background-color: #efefef;
+    padding: 85px 0 75px 0;
+}
+.second .waiting_text, .finish_study .finish_text, .five .fist_text{
+    color: #252525;
+    font-family: 'Roboto Regular';
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.finish_study .finish_text{
+    color: #ffffff;
+}
+
+.five .fist_text{
+    margin-top: 37px;
+}
+.second .waiting_line, .finish_study .line_2 {
+    width: 217px;
+    height: 4px;
+    background-color:#f9bf3b;
+    margin: 0 auto;
+    margin-top: 18px;
+}
+
+.second .text_webinar, .five .write_vebinar{
+    margin-top: 17px;
+    color: #4a4a4a;
+    font-family: 'Roboto Regular';
+    font-size: 23px;
+    font-weight: 400;
+    text-align: center;
+}
+.second .waiting_webinar {
+    display: flex;
+    justify-content:space-between;
+    margin-top: 45px;
+}
+
+.second .waiting_webinar .waiting_item{
+    width: 339px;
+    margin-top: 45px;
+
+}
+.second .waiting_webinar .waiting_item .waiting_img{
+    width: 100%;
+}
+.second .waiting_webinar .waiting_item .waiting_description{
+    margin-top: 33px;
+    font-family: 'Roboto Light';
+    text-align: center;
+}
+
+/* .test_container{
+    justify-content: space-around;/* выравнивание по главной оси (горизонталь) */
+   /*  align-items: center; */ /* выравнивание по вертикальной оси(вертикаль) */
+    /* flex-direction: column; */ /* смена положения главной и вертикальной оси */
+   /*  display: flex; превращаеться в контейнер flexbox(ведет себя как блорчний елемент)
+    height:450px; */
+     
+.test_container .item{
+    width: 150px;
+    height:150px;
+    background-color:blueviolet;
+    text-align: center;
+    color: cornsilk;
+}
+
+.three{
+    min-height: 550px;
+    padding: 102px 0 107px 0;
+}
+.three .optimization_header{
+    margin-left: 391px;
+    font-family: 'Roboto Black';
+    color:#299cbd ;
+    font-size: 29px;
+    text-transform: uppercase;
+}
+
+.three .optimization_text{
+    margin-top: 25px;
+    margin-left: 391px;
+    color: #4a4a4a;
+    font-size: 17px;
+    line-height: 27px;
+    font-family: 'Roboto Light';
+}
+.three .optimization_text span{
+    font-family: 'Roboto Bold';
+}
+.three img{
+    position: absolute;
+    top:-54px;
+    left: -240px;
+    z-index: -1;
+}
+.finish_study{
+    min-height: 447px;
+    padding: 86px 0 79px 0;
+    background: url('/src/img/Main_img/bottom_foto.jpg') center center/ cover no-repeat;
+}
+.finish_study .finish_text{
+    font-family: 'Roboto Regular';
+}
+
+.finish_study .finish_wrapper{
+    margin-top: 41px;
+    display: flex;
+    justify-content:space-between;
+}
+.finish_study .finish_wrapper .finish_item{
+    width: 204px;
+}
+.finish_study .finish_wrapper .finish_item .finish_round{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    width: 115px;
+    height:115px;
+    background-color:#b4e2ff;
+    border-radius: 100%;
+}
+.finish_study .finish_wrapper .finish_item .finish_deskr{
+    margin-top: 25px;
+    text-align: center;
+    color: #efefef;
+    font-family: 'Roboto Light';
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.four{
+    min-height: 628px;
+    background-color:#efefef;
+    padding: 86px 0 87px 0;
+}
+.four .box_prize{
+    display: block;
+    margin: 0 auto;
+}
+
+.four .all_user{
+    margin-top: 28.5px;
+    text-align: center;
+    font-family: 'Roboto Regular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 43px;
+}
+.five{
+    height: 515px;
+    background-color:#ffffff;
+    padding: 82px 0 64px 0;
+}
+.five .vebinar_img{
+    display: block;
+    margin: 0 auto;
+}
+
+.five .sentebr{
+    font-family: 'Roboto Black';
+    color:#299cbd ;
+    font-size: 29px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.end{
+    background-color:#1A1A1A;
+    min-height: 166px;
+    padding: 55px 0 68px 0;
+}
+.end h2{
+    font-family: 'Roboto Light';
+    font-style: normal;
+    font-size: 15px;
+    line-height: 21px;
+    color:#888888;
+    text-align: center;
+}
+.end .slyshba{
+    text-decoration: underline;
+    color:#888888;
+}
+.end .politic{
+    text-decoration: underline; /* оформление текста подчеркивание */
+    color:#888888;
+}

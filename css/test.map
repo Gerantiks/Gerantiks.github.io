@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "test.css",
+	"sources": [
+		"../sass/test.sass"
+	],
+	"sourcesContent": [
+		"h1 {\n    color: red;\n    text-align: center;\n    ba {} }\n\n"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,EAAE,CAAC;EACC,KAAK,EAAE,GAAG;EACV,UAAU,EAAE,MAAM;CACX"
+}

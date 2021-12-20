@@ -1,0 +1,51 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+button {
+  width: 250px;
+  height: 50px;
+  background-color: #7B68EE;
+  border: none;
+  cursor: pointer;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+}
+button:hover {
+  background-color: #FFE4B5;
+  color: #00FF00;
+}
+button:active {
+  background-color: #FFFFFF;
+}
+button:focus {
+  background-color: #800000;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  background-color: green;
+  border-radius: 100%;
+  margin-top: 10px;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+}
+.circle:nth-child(2n) {
+  background-color: blue;
+}
+.circle::before {
+  content: "";
+  display: block;
+  height: 4px;
+  width: 0%;
+  background-color: #000;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+}
+.circle:hover::before {
+  width: 100%;
+}
+
+/*# sourceMappingURL=test.css.map */

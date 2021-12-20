@@ -1,0 +1,183 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    position: relative;
+}
+
+nav {
+    height: 50px;
+    background-color:#212121;
+    position: fixed;
+    width: 100%;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 70px;
+    margin: 0;
+    list-style-type: none;
+}
+.menu .menu_link{
+    color:#ffffff;
+    font-size: 300;
+    font-size: 15px;
+    text-decoration: underline;
+}
+.menu .menu_item{
+    border-right: 2px dotted black;
+    padding-right: 42px;     
+}
+.subhead {
+    position: absolute;
+    width: 100%;
+    height: 84px;
+    background-color:rgba(0,0,0, 0.6);
+    margin-top: 50px;
+}
+.subhead .subhead_logo{
+    display: block;
+    max-width: 100%;
+    margin-top: 18px;
+
+}
+
+.subhead .row .subhead_text{
+    margin-top: 6px;
+    color:rgba(255, 255, 255, 0.5);
+    font-size: 13px;
+    font-weight: 400;
+    opacity: 0.5;
+}
+.subhead .subheader_call{
+    display: block;
+    margin-top: 17px;
+    font-size: 12px;
+    color: #FFFFFF;
+    font-weight: 300;
+    text-align:right;
+}
+.subhead .subheader_number{
+    display: block;
+    font-size: 22px;
+    color: #FFFFFF;
+    font-weight: 400;
+    margin-top: 8px;
+    line-height: 12px;
+    text-align:right;
+    text-transform: uppercase;
+}
+.subhead .subhead_btn{
+    margin-top: 21px;
+    width: 172px;
+    height: 46px;
+    box-shadow: inset -3px 0 rgba(0,0,0, 0.12);
+    border: none;
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+    text-shadow: 1px 1px 0 rgba(0,0,0, 0.21);
+    color:#ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    border-radius: 4px;
+}
+.second{
+    min-height: 800px;
+    background-image:url(../img/fist_backround.jpg);
+    padding: 150px 0 135px 0;
+}
+.second .uber_main{
+    font-size: 60px;
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 60px;
+    text-align: center;
+}
+.second .submain{
+    font-size: 36px;
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 36px;
+    margin-top: 22px;
+    text-align: center;
+}
+.second .submain_text{
+    margin-top: 23px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+.second .promo_btn{
+    display: block;
+    margin: 118px auto 0 auto;
+    width: 259px;
+    height: 63px;
+    box-shadow: inset 0 -4px 0 rgba(0,0,0, 0.12);
+    border: none;
+    background-image:linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+    text-shadow: 1px 1px 0 rgba(0,0,0, 0.21);
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    border-radius: 4px;
+}
+.three{
+    min-height: 900px;
+    padding: 71px 0 65px 0;
+}
+.three .btn_black{
+    display: block;
+    margin: 0 auto;
+    text-transform: uppercase;
+    width:112px;
+    height:24px;
+    font-size: 11px;
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: 200;
+}
+.three .item8{
+    margin-top: 38px;
+    color: black;
+    font-size: 38px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+.three .colona{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+.three .colona .block_text{
+    width: 343px;
+}
+.three .colona .block_img{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    margin-right: 26px;
+    width: 113px;
+    height: 113px;
+    border-radius: 100%;
+    background-color: #1eacc7;
+}
+.three .colona .block_text .header_blue{
+    font-weight: 400;
+    font-size: 17px;
+    color: #1eacc7;
+
+}
+.three .colona .block_text .start_text{
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    color: #202020;
+}
